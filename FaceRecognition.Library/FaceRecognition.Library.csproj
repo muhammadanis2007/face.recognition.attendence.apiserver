@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Files\Cascades\" />
+    <Folder Include="Files\Faces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Emgu.CV.DebuggerVisualizers.VS2017">
+      <HintPath>..\face.recognition.attendence\bin\Debug\netcoreapp2.2\Emgu.CV.DebuggerVisualizers.VS2017.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI">
+      <HintPath>..\face.recognition.attendence\bin\Debug\netcoreapp2.2\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI.GL">
+      <HintPath>..\face.recognition.attendence\bin\Debug\netcoreapp2.2\Emgu.CV.UI.GL.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.World.NetStandard1_4">
+      <HintPath>..\face.recognition.attendence\bin\Debug\netcoreapp2.2\Emgu.CV.World.NetStandard1_4.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
